@@ -16,7 +16,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
+    background: url("meningite.webp") no-repeat center center;
     background-size: cover;
 }
 
