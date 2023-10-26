@@ -5,13 +5,6 @@
     font-family: sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column; /* Altere a direção para uma coluna */
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
 section {
     display: flex;
     align-items: center;
