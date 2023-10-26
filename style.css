@@ -13,20 +13,6 @@ body {
     min-height: 100vh;
     background: #101026;
 }
-
-header {
-    background-color: #1d1d2e;
-    text-align: center;
-    width: 100%; /* Ajuste a largura do cabeçalho */
-}
-
-.PensiIMG {
-    width: 100%; /* Faça a imagem ocupar 100% da largura do cabeçalho */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 section {
     display: flex;
     align-items: center;
@@ -36,6 +22,13 @@ section {
     background: #1d1d2e;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section .PensiIMG {
+    width: 100%; /* Faça a imagem ocupar 100% da largura do cabeçalho */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 section h2 {
