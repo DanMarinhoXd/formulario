@@ -10,7 +10,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: transparent;
 }
 
 .container {
@@ -20,6 +19,8 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    background: url("meningite.webp") no-repeat center center;
+    background-size: cover;
 }
 
 section {
@@ -121,5 +122,4 @@ form button:hover {
     transition: all 0.5s;
 }
 .btn:hover{
-    border-radius: 16px;
-}
+    border-radius: 
