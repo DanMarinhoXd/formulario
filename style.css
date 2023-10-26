@@ -74,6 +74,17 @@ form button:hover{
     border-radius: 16px;
 }
 
+header {
+    text-align: center; /* Centralize a imagem horizontalmente */
+    background-color: #1d1d2e; /* Cor de fundo do cabeçalho */
+}
+
+.PensiIMG {
+    width: 100%; /* Faça a imagem ocupar 100% da largura do cabeçalho */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+    display: block; /* Remova margens horizontais */
+    margin: 0 auto; /* Centralize a imagem na vertical */
+}
 /*Página do Obrigado*/
 
 .main{
@@ -104,10 +115,3 @@ form button:hover{
 .btn:hover{
     border-radius: 16px;
 }
-
-.PensiIMG {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: blue;
-        }
