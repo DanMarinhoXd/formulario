@@ -1,17 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+
+body {
     display: flex;
+    flex-direction: column; /* Altere a direção para uma coluna */
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: #101026;
 }
-section{
+
+header {
+    background-color: #1d1d2e;
+    text-align: center;
+    width: 100%; /* Ajuste a largura do cabeçalho */
+}
+
+.PensiIMG {
+    width: 100%; /* Faça a imagem ocupar 100% da largura do cabeçalho */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,22 +37,26 @@ section{
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-section h2{
+
+section h2 {
     color: #f5f5f5;
     font-size: 2.5rem;
     margin: 2rem;
 }
-section form{
+
+section form {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-form label{
+
+form label {
     color: #f5f5f5;
     font-size: 17px;
     margin-bottom: 4px;
 }
-form input{
+
+form input {
     padding: 15px;
     outline: none;
     border: 0;
@@ -44,10 +64,12 @@ form input{
     font-size: 15px;
     transition: all 0.5s;
 }
-form input:focus{
+
+form input:focus {
     border-radius: 16px;
 }
-form textarea{
+
+form textarea {
     padding: 10px;
     outline: none;
     border: 0;
@@ -55,10 +77,12 @@ form textarea{
     margin-bottom: 30px;
     transition: all 0.5s;
 }
-form textarea:focus{
+
+form textarea:focus {
     border-radius: 16px;
 }
-form button{
+
+form button {
     padding: 15px;
     cursor: pointer;
     font-size: 16px;
@@ -68,22 +92,11 @@ form button{
     transition: all 1s;
     margin-bottom: 20px;
 }
-form button:hover{
+
+form button:hover {
     background: #f5f5f5;
     color: #101026;
     border-radius: 16px;
-}
-
-header {
-    text-align: center; /* Centralize a imagem horizontalmente */
-    background-color: #1d1d2e; /* Cor de fundo do cabeçalho */
-}
-
-.PensiIMG {
-    width: 100%; /* Faça a imagem ocupar 100% da largura do cabeçalho */
-    height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
-    display: block; /* Remova margens horizontais */
-    margin: 0 auto; /* Centralize a imagem na vertical */
 }
 /*Página do Obrigado*/
 
